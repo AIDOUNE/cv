@@ -1,0 +1,41 @@
+.page{
+	width : 780px;
+	margin : auto;
+	font-size :16px;
+	font-family : 'Source sans Pro', Calibri,Tahama, sans-serif;
+    background-color : #FFFFFC;
+}
+
+.données{
+	height : 200px;
+	width : auto;
+	border-bottom: 10xp rgb(11, 76, 187);
+}
+	
+.Titre{
+	float : center;
+    color : #7B0F0F;
+}
+
+.Informations{
+	float : left;
+}
+
+.section{
+	margin-bottom: 70px;
+}
+.sec-gauche{
+	float : left;
+}
+
+.sec-droite{
+	margin-left : 250px;
+}	
+.h4{
+	font-size : 20px;
+    text-transform : uppercase;
+	border-bottom : 3px solid #3388DD;
+    color : #A52A2A;
+
+}	
+
