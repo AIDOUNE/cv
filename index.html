@@ -1,68 +1,137 @@
 <!DOCTYPE html>
-
 <html>
-		<head>
-			<meta charset="utf-8">
-			<title>cv</title>
-		</head>
-		
-		<body>
-			<div id="Informations" >
-				<h1>Consultante SAP</h1>
-				<p>Nom: AIDOUNE Dalia</p>
-				<p>Adresse: 3 avenue Albert EINSTEIN</p>
-				<p>Ville: Villeurbanne</p>
-				<p>Mobile: 06.05.86.27.35</p>
-				<p> Email: aidounedalia@yahoo.fr</p>
-			</div>
-		
-			<div id="Diplomes" >
-				<h3>Diplomes</h3>
-				<div id="Diplome" >
-					<h4>Master informatique</h4>
-					<p> Lieu: Villeurbanne</p>
-					<p>Pays: France</p>
-					<p>Année: 2017/2018</p>
-					<p>Description: Master Compétences Complémentaires en informatique</p>
-				</div> 
-				 <div id="Diplome" >
-					<h4>Master procédés industriels</h4>
-					<p> Lieu: Villeurbanne</p>
-					<p>Pays: France</p>
-					<p>Année: 2015/2017</p>
-					<p>Description: Master Génie des procédés</p>
-				</div> 
-			</div> 
-			
-			<div id="Expériences">
-				<h3>Expériences</h3>
-				<div id="Expérience">
-					<h4>Stage M2</h4>
-					<p>Société: Marie</p>
-					<p>Date: 01/2017 - 07/2017</p>
-					<p>Poste: Chargée d'amélioration - Applocations industrielles</p>
-					<p>Département: Ain </p>
-					<p>Pays: France </p>
-				</div>
-				<div id="Expérience">
-					<h4>Stage M1</h4>
-					<p>Société: Daikin Chemical France</p>
-					<p>Date: 05/2016 - 08/2016</p>
-					<p>Poste: Stagiaire process/projets</p>
-					<p>Département: Rhone </p>
-					<p>Pays: France </p>
-					</div>
+	<head>
+        <meta charset="utf-8">
+        <title>cv_dali</title>
+        <link rel = "stylesheet" href = "cv_dali.css">
+	</head>
+	
+	<body>
+		<div class = "page">
+			<div class = "données">
+				<div class = "Titre">
+				<h2>Consultante SAP</h2>
 				</div>
 				
-				<div id="Technologies">	
-					<h3>Technologies</h3>	
-					<p>SAP</p>
-					<p>JAVA</p>		
-					<p>CATIA</p>
+				<div class = "Informations">
+					<p>Dalia AIDOUNE</p>
+					<p>3 avenue Albert EINSTEIN, 69100 Villeurbanne</p>
+					<p>06.05.86.27.35</p>
+					<p>aidounedalia@yahoo.fr</p>
 				</div>	
+				
+			</div>	
+			
+			<div class = "section">
+				<h4>**DIPLOMES**</h4>
+					
+				<div class="sec-gauche">
+					<p>2017/2018</p>
+					<p>2015/2017</p>
+        
+				</div>
+				
+				<div class="sec-droite">
+					<p>Master Compétences Complémentaires en informatique, Université Lyon1</p>
+					<p>Master Génie des procédés, Université Lyon1</p>
+				</div>
+				
+			</div>
+				
+			<div class="section">
+				<h4>**EXPERIENCES**</h4>
+				<div class="sec-gauche">
+					<p>01/2017 - 07/2017 </p>
+					<p>05/2016 - 08/2016 </p>
+				</div>	
+					
+				<div class="sec-droite">
+					<p> Chargée d'amélioration - Application industrielles, Société Marie</p>
+					<a href="https://www.societe.com/societe/marie-327280368.html">lien Marie</a>
+					<p>Stagiaire process/projets, Société DAIKIN Chemical France </p>
+					<a href="https://www.societe.com/societe/daikin-chemical-france-438102113.html">lien DAIKIN</a>
+				</div>
+				
+			</div>  
+				
+			<div class="section">
+				<h4>**COMPETENCES**</h4> 
+					
+				<div class="sec-gauche">
+					<p>Système d'exploitation</p>
+					<p>Langages de programmation</p>
+				</div>
+				<div class="sec-droite">
+					<p>Windows, Linux</p>
+					<p>C,Java,SQL,JavaScript,XML,HTML</p>
+				</div>
+				
+			</div>     
+					
+			<div class="section">
+				<h4>**LANGUES**</h4>
+					
+				<div class="sec-gauche">
+					<p>Français</p>
+					<p>Anglais</p>
+				</div>
+				<div class="sec-droite">
+					<p>Bilingue</p>
+					<p>Professionnel</p>
+				</div>
+			</div> 
+			
+		</div>	 
+    </body>          
+                
+</html>
 
-				<div id="Langues">
-					<h3>Langues</h3>		
-					<p>Anglais (niveau : professionnel)</p>	
-				</div>					
-		</body>
+
+
+
+.page{
+	width : 780px;
+	margin : auto;
+	font-size :16px;
+	font-family : 'Source sans Pro', Calibri,Tahama, sans-serif;
+        background-color : #FFFFFC;
+}
+
+.données{
+	height : 200px;
+	width : auto;
+	border-bottom: 10xp rgb(11, 76, 187);
+}
+	
+.Titre{
+	float : center;
+        color : #7B0F0F;
+}
+
+.Informations{
+	float : left;
+}
+
+.section{
+	margin-bottom: 70px;
+}
+.sec-gauche{
+	float : left;
+}
+
+.sec-droite{
+	margin-left : 250px;
+}	
+.h4{
+    font-size : 20px;
+    text-transform : uppercase;
+    border-bottom : 3px solid #3388DD;
+    color : #A52A2A;
+
+}	
+
+
+
+
+
+
